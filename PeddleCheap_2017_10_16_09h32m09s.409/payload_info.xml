@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<Payload>
+    <Description>HTTP Proxy</Description>
+    <Name>PeddleCheap</Name>
+    <ShortName>Pc</ShortName>
+    <Arch>x64</Arch>
+    <Os>winnt</Os>
+    <BinType>sharedlib</BinType>
+    <Type>Level3</Type>
+    <Persistence>Generic</Persistence>
+    <File>C:\johnb\danderspritzlogs\z0.0.0.1\Payloads\PeddleCheap_2017_10_16_09h32m09s.409\PC_Level3_http_dll.configured</File>
+    <CommsType>HTTP</CommsType>
+    <Comms>Winsock</Comms>
+    <Fc_Name>Level 3 HTTP DLL</Fc_Name>
+    <Fc_OsFamily>Windows NT</Fc_OsFamily>
+    <Fc_Architecture>x64</Fc_Architecture>
+    <KeyLocation>C:\johnb\fuzzbunch-master-new\Resources\Pc\Keys\Default</KeyLocation>
+</Payload>

